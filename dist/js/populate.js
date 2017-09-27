@@ -9,7 +9,7 @@ function populate(selectedNav, title) {
                     <div class="collapse navbar-collapse" id="navbarCollapse">\
                     <ul class="navbar-nav mr-auto">';
 
-    var navOptions = ["Home", "Politics", "Technology"];
+    var navOptions = ["Home", "Politics", "Technology", "Submit"];
     for (var i = 0; i < navOptions.length; i++) {
         toSet += '<li class="nav-item ' + (selectedNav == navOptions[i] ? 'active' : '') + '">';
         toSet += '<a class="nav-link" href="http://wrootly.com/' + (navOptions[i] == "Home" ? '">' : navOptions[i].toLowerCase() + '">') + navOptions[i] + "</a></li>";
