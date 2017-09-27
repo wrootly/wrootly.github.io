@@ -2,7 +2,7 @@ function populate(selectedNav, title) {
     var header = document.getElementsByTagName("header")[0];
     var toSet = '<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> \
                     <!--<a class="navbar-brand" href="#">Wrootly</a>--> \
-                    <a class="navbar-brand" href="http://wrootly.com"><img src="wrootly - white.png" alt="Wrootly" height="46" width="150"></a> \
+                    <a class="navbar-brand" href="http://wrootly.com"><img src="/wrootly - white.png" alt="Wrootly" height="46" width="150"></a> \
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> \
                     <span class="navbar-toggler-icon"></span>\
                     </button>\
