@@ -7,8 +7,7 @@ function populate(selectedNav, title) {
                     <span class="navbar-toggler-icon"></span>\
                     </button>\
                     <div class="collapse navbar-collapse" id="navbarCollapse">\
-                    <ul class="navbar-nav mr-auto">\
-                    <div class="container marketing">';
+                    <ul class="navbar-nav mr-auto">';
 
     var navOptions = ["Home", "Politics", "Technology", "Submit"];
     for (var i = 0; i < navOptions.length; i++) {
@@ -20,7 +19,7 @@ function populate(selectedNav, title) {
 
     document.getElementsByTagName("head")[0].innerHTML += "<title>" + title + "</title>";
 
-    document.getElementsByTagName("footer")[0].innerHTML = '</div><p class="float-right"><a href="#">Back to top</a></p>\
+    document.getElementsByTagName("footer")[0].innerHTML = '<p class="float-right"><a href="#">Back to top</a></p>\
     <p>&copy; 2017 Wrootly &middot; <a href="mailto:contact@wrootly.com">Contact</a> &middot; <a href="https://twitter.com/wrootly">Twitter</a></p>';
 
     document.getElementsByTagName("head")[0].innerHTML += '<meta charset="utf-8">\
