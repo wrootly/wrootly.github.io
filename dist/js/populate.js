@@ -20,7 +20,7 @@ function populate(selectedNav, title) {
     document.getElementsByTagName("head")[0].innerHTML += "<title>" + title + "</title>";
 
     document.getElementsByTagName("footer")[0].innerHTML = '<p class="float-right"><a href="#">Back to top</a></p>\
-    <p>&copy; 2017 Wrootly &middot; <a href="mailto:contact@wrootly.com">Contact</a> &middot; <a href="https://twitter.com/wrootly">Twitter</a></p>';
+    <p>&copy; 2018 Wrootly &middot; <a href="mailto:contact@wrootly.com">Contact</a> &middot; <a href="https://twitter.com/wrootly">Twitter</a></p>';
 
     document.getElementsByTagName("head")[0].innerHTML += '<meta charset="utf-8">\
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\
