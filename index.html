@@ -5,6 +5,16 @@
     <script src="/dist/js/populate.js"></script>
   </head>
   <body onload="populate('Home', 'Wrootly')">
+
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
     <header>
     </header>
 
@@ -20,6 +30,7 @@
         <p>If you want to start to get involved, follow us on social media.</p>
 
         <a href="https://twitter.com/wrootly?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @wrootly</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="fb-follow" data-href="https://www.facebook.com/wrootly/" data-layout="standard" data-size="large" data-show-faces="true"></div>
       </div>
 
       <hr class="featurette-divider">
